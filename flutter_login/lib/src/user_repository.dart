@@ -7,10 +7,10 @@ import 'models/models.dart';
 class UserRepository {
   User _user;
 
-  Future<void> getUser() async {
+  Future<User> getUser() async {
     if (_user != null) return _user;
 
-    Future<void>.delayed(
+    Future.delayed(
       const Duration(milliseconds: 300),
       () => _user = User(Uuid().v4()),
     );

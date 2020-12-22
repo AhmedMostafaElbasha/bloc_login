@@ -20,13 +20,13 @@ class AuthenticationRepository {
     assert(username != null);
     assert(password != null);
 
-    await Future<void>.delayed(
+    await Future.delayed(
       const Duration(milliseconds: 300),
       () => _controller.add(AuthenticationStatus.authenticated),
     );
   }
 
-  void signOut() {
+  void logOut() {
     _controller.add(AuthenticationStatus.unauthenticated);
   }
 
