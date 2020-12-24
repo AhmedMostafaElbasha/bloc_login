@@ -8,7 +8,6 @@ import 'package:equatable/equatable.dart';
 
 import '../../authentication_repository.dart';
 import '../login.dart';
-
 part 'login_event.dart';
 part 'login_state.dart';
 

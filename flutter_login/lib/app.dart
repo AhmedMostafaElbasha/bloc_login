@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'authentication_repository.dart';
+import 'splash/view/splash_page.dart';
 import 'user_repository.dart';
 import 'authentication/authentication.dart';
 import 'home/home.dart';

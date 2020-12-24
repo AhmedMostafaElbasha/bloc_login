@@ -36,6 +36,7 @@ dependencies:
     path: packages/authentication_repository
   user_repository:
     path: packages/user_repository
+  provider: ^4.3.2+3
 
 dev_dependencies:
   flutter_test:
